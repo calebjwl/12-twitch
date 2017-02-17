@@ -1,12 +1,10 @@
 .navbar {
   display: flex;
-  width: 30rem;
   flex-direction: column;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  width: 50rem;
+  padding: 0 1rem;
   background: $c-nav;
   color: $c-nav-text;
-  height: 100vh;
 
   &__header {
     align-items: center;
@@ -23,28 +21,32 @@
   }
 
   &__logo {
-  align-self: center;
-  width: 6rem;
-  margin: 1rem;
+    align-self: center;
+    width: 6rem;
+    margin: 1rem;
   }
 }
 
 .search-bar {
-  background: $c-nav;
-  color: $c-nav-text;
-  border: 0.05rem solid $c-nav-secondary-transparent;
   width: 90%;
   margin: 0.5rem;
+  padding-left: 0.5rem;
+  border: 0.05rem solid $c-nav-secondary-transparent;
+  background: $c-nav-light;
+  color: $c-nav-text-transparent;
+}
+
+.search {
+  padding: 0.4rem;
+  border: none;
+  background: none;
 }
 
 .browse {
   display: flex;
   align-items: center;
   margin-left: -1rem;
-  padding-top: 0.5rem;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding: 0.5rem 1rem;
   border-left: $c-nav-secondary 0.2rem solid;
   background: $c-nav-light;
 
@@ -109,7 +111,7 @@
 
   &__item {
     color: $c-nav-text-transparent;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 

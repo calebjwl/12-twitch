@@ -1,5 +1,6 @@
 .games {
   padding: 1rem;
+  overflow: auto;
 
   &__header {
 
@@ -44,10 +45,12 @@
   }
 
   &__title {
-
+    margin: 0;
   }
 
   &__viewers {
-
+    margin: 0;
+    color: $c-games-views;
+    font-size: 12px;
   }
 }

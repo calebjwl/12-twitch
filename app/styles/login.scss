@@ -1,0 +1,24 @@
+.login {
+  width: 60rem;
+  padding: 1rem;
+  background: $c-login;
+
+  &__title {
+    font-size: 25px;
+  }
+
+  &__info {
+    font-size: 15px;
+  }
+
+  &__list {
+
+    &__item {
+      margin: 0.5rem 0;
+      padding: 0.5rem 0.8rem;
+      border-left: $c-nav-secondary 0.2rem solid;
+      background: $c-nav-text;
+      font-size: 14px;
+    }
+  }
+}
