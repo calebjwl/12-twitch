@@ -12,6 +12,10 @@
     width: 100%;
   }
 
+  &__section {
+    margin: 0.5rem 0;
+  }
+
   &__logo {
   align-self: center;
   width: 6rem;
@@ -28,38 +32,61 @@
 }
 
 .browse {
-  background: $c-nav-light;
-  border-left: $c-nav-secondary 0.2rem solid;
   display: flex;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   margin-left: -1rem;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: $c-nav-secondary 0.2rem solid;
+  background: $c-nav-light;
 
   &__text {
     margin: 0 0 0 1rem;
   }
 }
 
+.title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-bottom: $c-nav-secondary 0.1rem solid;
+
+  &-text {
+
+  }
+}
+
+.angle {
+  position: absolute;
+  right: 0;
+}
+
 .textbox {
+  display: flex;
+  margin-top: 1rem;
 
-  &__title {
-    display: flex;
-    align-items: center;
-    position: relative;
-    text-transform: uppercase;
-    font-size: 12px;
-
-    &-text {
-
-    }
+  &__avatar {
+    height: 2rem;
+    width: 2rem;
   }
 
-  &__angle {
-    position: absolute;
-    right: 0;
+  &__info {
+    flex-direction: column;
+    margin-left: 0.5rem;
   }
+}
 
+.name {
+  margin: 0;
+  font-size: 14px;
+}
+
+.caption {
+  margin: 0;
+  color: $c-nav-text-transparent;
+  font-size: 12px;
 }
