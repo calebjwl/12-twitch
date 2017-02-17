@@ -21,4 +21,18 @@
       font-size: 14px;
     }
   }
+
+  &__buttons {
+    display: flex;
+
+    &__btn {
+      width: 27%;
+      display: block;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      background: $c-nav-secondary;
+      color: $c-nav-text;
+      font-size: 15px;
+    }
+  }
 }
