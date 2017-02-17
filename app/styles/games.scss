@@ -1,0 +1,53 @@
+.games {
+  padding: 1rem;
+
+  &__header {
+
+  }
+
+  &__title {
+    font-size: 30px;
+  }
+
+  &__navlist {
+    display: block;
+    flex-grow: 1;
+
+    > * + * {
+      margin: 0 1rem;
+    }
+  }
+}
+
+.nav__item {
+  text-decoration: none;
+  color: $c-nav-secondary;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+  border-top: rgba(133,133,133,.51) 0.1rem solid;
+  // padding-top: 1rem;
+  overflow: scroll;
+
+  &__item {
+    margin: 1rem 0.5rem;
+  }
+}
+
+.game {
+
+  &__pic {
+
+  }
+
+  &__title {
+
+  }
+
+  &__viewers {
+
+  }
+}

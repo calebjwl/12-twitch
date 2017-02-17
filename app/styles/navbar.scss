@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  flex-basis: 15rem;
+  width: 30rem;
   flex-direction: column;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -32,7 +32,7 @@
 .search-bar {
   background: $c-nav;
   color: $c-nav-text;
-  border: 0.05rem solid $c-nav-secondary;
+  border: 0.05rem solid $c-nav-secondary-transparent;
   width: 90%;
   margin: 0.5rem;
 }
@@ -59,7 +59,7 @@
   align-items: center;
   font-size: 12px;
   text-transform: uppercase;
-  border-bottom: $c-nav-secondary 0.1rem solid;
+  border-bottom: $c-nav-secondary-transparent 0.1rem solid;
 
   &-text {
 
