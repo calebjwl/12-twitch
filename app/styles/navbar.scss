@@ -1,0 +1,65 @@
+.navbar {
+  background: $c-nav;
+  color: $c-nav-text;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  &__header {
+    align-items: center;
+    width: 100%;
+  }
+
+  &__logo {
+  align-self: center;
+  width: 6rem;
+  margin: 1rem;
+  }
+}
+
+.search-bar {
+  background: $c-nav;
+  color: $c-nav-text;
+  border: 0.05rem solid $c-nav-secondary;
+  width: 90%;
+  margin: 0.5rem;
+}
+
+.browse {
+  background: $c-nav-light;
+  border-left: $c-nav-secondary 0.2rem solid;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: -1rem;
+
+  &__text {
+    margin: 0 0 0 1rem;
+  }
+}
+
+.textbox {
+
+  &__title {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    &-text {
+
+    }
+  }
+
+  &__angle {
+    position: absolute;
+    right: 0;
+  }
+
+}
